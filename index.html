@@ -3,13 +3,13 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>LinenLoom</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel='stylesheet' type='text/css' media='screen' href='/styles/main.css'>
-    <script src='/script.js'></script>
+    <script defer src='/script.js'></script>
 </head>
 <body>
 
@@ -30,8 +30,16 @@
         <div>
         <button id="login"> Login</button>
         <button id="signup"> Sign Up</button></div>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
+        <div id="hamburger-menu">
+          <button class="hamburger-button"> ☰ </button>
+          <div class="nav-links">
+              <a href="#">Services</a>
+              <a href="#">Products</a>
+              <a href="#">Pricing</a>
+              <a href="#">Login</a>
+              <a href="#">Signup</a>
+          </div>
+       </div>
     </header>
    </section>
 
@@ -161,8 +169,8 @@
                 We offer all kinds of linen in all types of materials and colors.
             </h2>
             <span>
-                <button>Hello</button>
-                <button>Hello</button>
+                <button>Learn More</button>
+                <button>Shop Now</button>
             </span>
         </div>
         <div class="image-part">
@@ -173,10 +181,10 @@
         <div class="text-part">
             <h1>The perfect fit for sensitive and allergy-prone skin</h1>
             <h2>
-Approved by docters and psychitrists, our linen is the perfect fit for your sensitive skin, ensuring no allergic reactions.            </h2>
+Approved by doctors, our linen is the perfect fit for your sensitive skin, ensuring no allergic reactions.            </h2>
             <span>
-                <button>Hello</button>
-                <button>Hello</button>
+                <button>Learn More</button>
+                <button>Shop Now</button>
             </span>
         </div>
         <div class="image-part">
@@ -195,15 +203,15 @@ Approved by docters and psychitrists, our linen is the perfect fit for your sens
     <div class="reviews">
         <div class="card shadow">
             <h1>"One of the finest linens ever, yes so good"</h1>
-            <h2>~ Foo faa boo</h2>
+            <h2>~ Someone</h2>
         </div>
         <div class="card shadow">
             <h1>"One of the finest linens ever, yes so good I think i could sleep in it all day"</h1>
-            <h2>~ Foo faa boo</h2>
+            <h2>~ Someone</h2>
         </div>
         <div class="card shadow">
             <h1>"One of the finest linens ever, yes so good, we all love linen's linen "</h1>
-            <h2>~ Foo faa boo</h2>
+            <h2>~ Someone</h2>
         </div>
        
        
@@ -247,7 +255,7 @@ Approved by docters and psychitrists, our linen is the perfect fit for your sens
           <b><li>Templates</li></b>
           <li>Contracts</li>
           <li>Proposals</li>
-          <li>Invoices</li>
+          <li>Shipping Policy</li>
           <li>Forms</li>
           <li>Quotes</li>
           <li>Scopes of work</li>
@@ -261,11 +269,10 @@ Approved by docters and psychitrists, our linen is the perfect fit for your sens
       <div class="c4">
         <ul style="display: flex;flex-direction: column;font-size: 12px;">
           <b><li>Products</li></b>
-          <li> Proposals</li>
-          <li> Contracts</li>
+          <li> Linens</li>
+          <li> Home Linen</li>
           <li>Invoicing</li>
-          <li>Client CRM</li>
-          <li>Scheduling</li>
+          <li>Home</li>
           <li>Time Tracking</li>
           <li>Tasks management</li>
           <li>Forms</li>

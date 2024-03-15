@@ -10,6 +10,11 @@
     color: rgb(150, 32, 32);
 }
 
+@media only screen and (min-width: 600px){
+    #hamburger-menu{
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 600px){
 
@@ -17,6 +22,7 @@
     position: relative;
     left: 14%;
 } */
+   
     section{
         width: 50rem;
     }
@@ -40,11 +46,25 @@
       
         overflow: scroll;
     }
-    .card{
-        width: 10rem;
-        grid-gap: 0px;
-        margin: 0px;
-       
-    }
+   
 }
 
+
+.nav-links {
+  
+    background-color: #ae7d7d;
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: rgb(83, 9, 9);
+ }
+ .nav-links a {
+    background-color: #e0d3d3;
+    display: block;
+    padding: 15px;
+    color: rgb(75, 13, 13);
+    text-decoration: none;
+ }
+ .nav-links a:hover {
+    background-color: #ae7d7d;
+ }
