@@ -21,9 +21,8 @@
     display: grid;
     grid-gap: 64px;
     grid-template-columns: repeat(6, 352px);
-    margin: 0 calc(50% - 560px);
-    position: relative;
-    overflow: hidden;
+    /* margin: 0 calc(50% - 560px); */
+    margin-left: 1.5rem;
 
 }
 

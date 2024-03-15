@@ -9,3 +9,42 @@
     font-family: 'Playfair Display', serif;
     color: rgb(150, 32, 32);
 }
+
+
+@media only screen and (max-width: 600px){
+
+    /* body{
+    position: relative;
+    left: 14%;
+} */
+    section{
+        width: 50rem;
+    }
+    header{
+        padding: 0px;
+    }
+    #login{
+        display: none;
+    }
+    #signup{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    .text-part h1{
+        font-size: 2.5rem;
+    }
+
+    .reviews{
+      
+        overflow: scroll;
+    }
+    .card{
+        width: 10rem;
+        grid-gap: 0px;
+        margin: 0px;
+       
+    }
+}
+
