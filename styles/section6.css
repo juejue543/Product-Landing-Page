@@ -1,0 +1,23 @@
+.section6{
+    background-color: aqua;
+}
+
+.footer{
+    background-color: #e3c7c7;
+    padding: 6rem 5rem 2rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.footer div{
+    background-color: #e3c7c7;
+}
+.footer ul li{
+    background-color: #e3c7c7;
+}
+
+.footer li{
+    list-style: none;
+}
+

@@ -1,0 +1,47 @@
+
+.section5{
+    padding-top: 5rem;
+}
+
+
+.section5 header{
+    text-align: center;
+}
+.section5 h1{
+    font-size: 65px;
+}
+.section5 h2{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.reviews{
+    
+    padding-top: 4rem;
+    display: grid;
+    grid-gap: 64px;
+    grid-template-columns: repeat(6, 352px);
+    margin: 0 calc(50% - 560px);
+    position: relative;
+    overflow: hidden;
+
+}
+
+.card {
+    grid-column: span 1;
+    width: 20rem;
+    padding: 3rem;
+    background-color: rgb(217, 193, 193);
+    border-radius: 10px;
+}
+ 
+.card  h1{
+    font-size: 35px;
+    background-color:   rgb(217, 193, 193);;
+}
+.card h2{
+    font-size: 16px;
+    background: rgb(217, 193, 193);
+}
+   
+

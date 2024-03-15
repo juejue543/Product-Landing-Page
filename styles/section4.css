@@ -1,0 +1,33 @@
+
+.section4{
+    padding-top: 3rem;
+  
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+}
+.boxes div{
+    padding-top: 10rem;
+}
+
+.boxes span{
+    position: relative;
+    top: 6%;
+}
+
+.text-part{
+    width: 38rem;
+    padding-top: 2rem;
+}
+.text-part h1{
+    font-size: 64px;
+  
+}
+
+.text-part h2{
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 0.5rem;
+}
