@@ -10,13 +10,13 @@
     color: rgb(150, 32, 32);
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 900px){
     #hamburger-menu{
         display: none;
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 900px){
 
     /* body{
     position: relative;
