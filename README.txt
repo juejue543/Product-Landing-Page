@@ -19,8 +19,6 @@ To see the project in action, you can visit the [demo](https://product-landing-p
 
 Feel free to reach out if you have any questions or feedback!
 
-This enhanced README provides a clearer structure, expands on the project's features, and acknowledges the sources of inspiration and assets used in the project.
-
 
 
 
