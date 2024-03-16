@@ -1,7 +1,6 @@
-Sure, here's an enhanced version of your README:
 
-# LinenLoom: A Product Landing Page 
-## Overview
+#LinenLoom: A Product Landing Page 
+##Overview
 This project is the culmination of my first task in the Sync Intern's Bootcamp. The task required coding a product landing page using vanilla HTML and CSS. Taking inspiration from landing pages found on [Frontend Practice](https://www.frontendpractice.com/) and popular product landing websites, I created a landing page for the fictional brand "LinenLoom".
 
 ## Getting Started
